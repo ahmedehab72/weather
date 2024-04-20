@@ -6,7 +6,7 @@ body{
   background-color: #1e202b;
 }
 .home-page{
-  background-image: url('/images/pexels-apasaric-325185.jpg');
+  background-image: url('../images/pexels-apasaric-325185.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 50vh;
