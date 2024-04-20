@@ -36,7 +36,7 @@ async function startApp(key){
     document.getElementById('Status').innerHTML=weatherData.current.condition.text;
     document.getElementById('Image').setAttribute('src','http:'+weatherData.current.condition.icon)     // 'http:' can put and not
     document.getElementById('persent').innerHTML=weatherData.current.wind_mph+"%"
-    document.getElementById('persent1').innerHTML=weatherData.current.wind_kph
+    document.getElementById('persent1').innerHTML=weatherData.current.wind_kph+"km/h"
     document.getElementById('persent2').innerHTML=weatherData.current.wind_dir
   }
 
